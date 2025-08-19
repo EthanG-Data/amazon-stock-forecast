@@ -14,7 +14,7 @@ Files
 Key Outcomes
 - Built ARIMA(0,1,1) model to capture stock trend
 - Regression model explained ~80% of variability
-- Forecasted prices 730 days forward
+- Forecasted prices 73 weeks forward
 
 echo "# amazon-stock-forecast" >> README.md
 git init
