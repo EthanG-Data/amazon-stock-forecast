@@ -9,7 +9,7 @@ Tools Used
 This project analyzes Amazon stock data from 2023-2025 to forecast future prices. 
 The model compares linear regression and ARIMA approaches, with error metrics to evaluate accuracy.
 
-**Files**
+**Files** (Results Branch)
 - `amazon_forecast.ipynb`: Python notebook with full analysis
 - `data_amazon.csv`: Stock dataset (Weekly prices)
 
