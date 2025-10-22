@@ -1,25 +1,17 @@
-# amazon-stock-forecast
-“Forecasting Amazon stock prices using Python regression and ARIMA models.”
-Tools Used
-- Python (pandas, statsmodels, matplotlib)
-- Jupyter Notebook
-- Regression & ARIMA time series forecasting
-Project Overview
-This project analyzes Amazon stock data from 2023-2025 to forecast future prices. 
-The model compares linear regression and ARIMA approaches, with error metrics to evaluate accuracy.
+# Amazon Stock Forecast - Python Regression & ARIMA Modeling
 
-Files
-- `amazon_forecast.ipynb`: Python notebook with full analysis
-- `data_amazon.csv`: Stock dataset (Weekly prices)
-Key Outcomes
-- Built ARIMA(0,1,1) model to capture stock trend
-- Regression model explained ~80% of variability
-- Forecasted prices 73 weeks forward
+This branch contains the complete code, data, and forecast results for the Amazon stock prediction project.
+It implements and compares **Linear Regression** and **ARIMA (0,1,1)** models to forecast Amazon's weekly stock prices 73 weeks into the future. 
 
-echo "# amazon-stock-forecast" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/EthanG-Data/amazon-stock-forecast.git
-git push -u origin main
+## Objective 
+-The Goal of this analysis is to apply **statistical and time-series forecasting** techniques to evaluate Amazon's stock performance between 2023-2025 and project future price behavior. 
+- Two Distinct modeling approaches -deterministic regression and stochastic ARIMA- are used to assess both trend and noise components in the data.
+
+
+## Key Results
+
+| Model | Performance | Insights |
+|:--|:--|:--|
+| Linear Regression | R² ≈ 0.80 | Captures steady long-term growth trend |
+| ARIMA(0,1,1) | Lower MAE/RMSE | Better short-term volatility tracking |
+| Combined | 73-week projection | Predicts sustained upward trajectory with mild fluctuations |
