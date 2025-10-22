@@ -1,4 +1,4 @@
-# amazon-stock-forecast
+# Amazon stock forecast
 “Forecasting Amazon stock prices using Python regression and ARIMA models.”
 Tools Used
 - Python (pandas, statsmodels, matplotlib)
