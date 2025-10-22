@@ -4,7 +4,7 @@ This branch contains the complete code, data, and forecast results for the Amazo
 It implements and compares **Linear Regression** and **ARIMA (0,1,1)** models to forecast Amazon's weekly stock prices 73 weeks into the future. 
 
 ## Objective 
--The Goal of this analysis is to apply **statistical and time-series forecasting** techniques to evaluate Amazon's stock performance between 2023-2025 and project future price behavior. 
+The Goal of this analysis is to apply **statistical and time-series forecasting** techniques to evaluate Amazon's stock performance between 2023-2025 and project future price behavior. 
 - Two Distinct modeling approaches -deterministic regression and stochastic ARIMA- are used to assess both trend and noise components in the data.
 
 
