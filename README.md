@@ -16,10 +16,3 @@ Key Outcomes
 - Regression model explained ~80% of variability
 - Forecasted prices 73 weeks forward
 
-echo "# amazon-stock-forecast" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/EthanG-Data/amazon-stock-forecast.git
-git push -u origin main
